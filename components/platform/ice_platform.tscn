@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=3 uid="uid://d1al3ma7idpec"]
+
+[ext_resource type="Texture2D" uid="uid://qai7vly4v1n8" path="res://New folder/Screenshot 2025-11-03 145659.png" id="1_wj1kc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wj1kc"]
+size = Vector2(393.28793, 124.28569)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p6m5d"]
+size = Vector2(392.01166, 397.71436)
+
+[node name="Ice_Platform" type="Sprite2D"]
+scale = Vector2(0.3378246, 0.32183906)
+texture = ExtResource("1_wj1kc")
+
+[node name="RigidBody2D" type="RigidBody2D" parent="."]
+scale = Vector2(0.99999976, 1)
+
+[node name="Area2D" type="Area2D" parent="RigidBody2D"]
+scale = Vector2(1.0000001, 1)
+
+[node name="AreaCollisionShape2D" type="CollisionShape2D" parent="RigidBody2D/Area2D"]
+position = Vector2(-7.1965036, -260.99997)
+scale = Vector2(0.9999999, 1)
+shape = SubResource("RectangleShape2D_wj1kc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
+position = Vector2(-6.5583725, 5.9264053e-06)
+shape = SubResource("RectangleShape2D_p6m5d")
+
+[node name="Sprites" type="Node2D" parent="RigidBody2D"]
+scale = Vector2(1.0000001, 1)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="RigidBody2D"]

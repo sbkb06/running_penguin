@@ -1,0 +1,175 @@
+[gd_scene load_steps=12 format=3 uid="uid://8st4scqt06l8"]
+
+[ext_resource type="Script" uid="uid://umb21eb2y1oj" path="res://scripts/player.gd" id="1_w3ms2"]
+[ext_resource type="Texture2D" uid="uid://ktiid0gtsf6g" path="res://New folder/zeke-walk-cycle-1-7--1.png" id="2_mpawu"]
+[ext_resource type="Texture2D" uid="uid://dbd7iijjqbilc" path="res://New folder/zeke-walk-cycle.png" id="2_pvtfm"]
+[ext_resource type="Texture2D" uid="uid://k1gpubxme7sm" path="res://New folder/zeke-walk-cycle-1-7--2.png" id="3_pvtfm"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7x5a4"]
+radius = 31.0
+height = 92.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wa6cj"]
+resource_local_to_scene = true
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_mpawu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_pvtfm")
+}],
+"loop": true,
+"name": &"\"walk\"",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_mpawu")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_mpawu")
+}],
+"loop": true,
+"name": &"jump_down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_mpawu")
+}],
+"loop": true,
+"name": &"jump_up",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_mpawu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_pvtfm")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="Animation" id="Animation_mpawu"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_pvtfm"]
+resource_name = "idle"
+length = 0.3
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [0, 0, 0, 0]
+}
+
+[sub_resource type="Animation" id="Animation_wa6cj"]
+resource_name = "walk_right"
+length = 0.3
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.10000001, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 0, 1]
+}
+
+[sub_resource type="Animation" id="Animation_02tnr"]
+resource_name = "walk_left"
+length = 0.3
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.099999994, 0.19999999, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 0, 1]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_pvtfm"]
+_data = {
+&"RESET": SubResource("Animation_mpawu"),
+&"idle": SubResource("Animation_pvtfm"),
+&"walk_left": SubResource("Animation_02tnr"),
+&"walk_right": SubResource("Animation_wa6cj")
+}
+
+[node name="Player" type="CharacterBody2D" groups=["players"]]
+collision_layer = 3
+collision_mask = 5
+floor_constant_speed = true
+floor_snap_length = 32.0
+script = ExtResource("1_w3ms2")
+
+[node name="DoubleJumpParticles" type="CPUParticles2D" parent="." groups=["players"]]
+unique_name_in_owner = true
+emitting = false
+amount = 60
+texture = ExtResource("2_pvtfm")
+lifetime = 0.2
+one_shot = true
+explosiveness = 0.54
+randomness = 0.25
+emission_shape = 1
+emission_sphere_radius = 36.72
+particle_flag_align_y = true
+gravity = Vector2(0, 1)
+scale_amount_max = 5.0
+color = Color(1, 1, 0, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -46)
+shape = SubResource("CapsuleShape2D_7x5a4")
+one_way_collision = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, -48)
+sprite_frames = SubResource("SpriteFrames_wa6cj")
+animation = &"walk"
+speed_scale = 2.0
+flip_h = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_pvtfm")
+}
