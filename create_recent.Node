@@ -1,0 +1,14 @@
+ParallaxLayer
+Label
+ParallaxBackground
+TextureButton
+Button
+VBoxContainer
+Control
+CanvasLayer
+AudioStreamPlayer
+AudioStreamPlayer2D
+AnimationPlayer
+CollisionShape2D
+Sprite2D
+AnimatableBody2D

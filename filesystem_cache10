@@ -1,0 +1,108 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1762528133
+.pre-commit-config.yaml::TextFile::-1::1761651749::0::1::::<><><>0<>0<><>::
+background0.gd::GDScript::3215769284805231546::1762335581::0::1::::<>ParallaxBackground<><>0<>1<><>::
+background_music.gd::GDScript::6278756167122017784::1762284361::0::1::::<>RefCounted<><>0<>0<><>::
+bear1.png::CompressedTexture2D::2911062306776420487::1762349326::1762528134::1::::<><><>0<>0<>d3fbd4d10fae48a4be84d147eda22238<>res://.godot/imported/bear1.png-2cad28158d7990aeddeb7130476d7ee6.ctex::
+bear2.png::CompressedTexture2D::1307070613277167749::1762349364::1762528134::1::::<><><>0<>0<>4d47fc33d666fe5038ae29ec3fa57baa<>res://.godot/imported/bear2.png-6c093f8db0880c5b59863a7c21fd7bbc.ctex::
+bear3.png::CompressedTexture2D::6986436124939970498::1762350506::1762528134::1::::<><><>0<>0<>79199d2b9a87465e50b8d5c67e5ad7eb<>res://.godot/imported/bear3.png-aa3ed15c765014a5bd44a3279e9c3311.ctex::
+canvas_layer.gd::GDScript::8181045719561830526::1762335319::0::1::::<>CanvasLayer<><>0<>1<><>::
+canvas_layer.tscn::PackedScene::4015514611464652489::1762339149::0::1::::<><><>0<>0<><>::uid://iepr37i0x6sk::::res://MainMenu.gd<>uid://6s7p0kkj1prl::::res://start.png<>uid://be8ebg318lfni::::res://quit.png
+export_presets.cfg::TextFile::-1::1761651749::0::1::::<><><>0<>0<><>::
+fish1.png::CompressedTexture2D::6121586440857925410::1762347035::1762528134::1::::<><><>0<>0<>a3be589b5aca51095c2987cf6e0b300a<>res://.godot/imported/fish1.png-e9c862f5efb473d8679bc27ef3db9f48.ctex::
+game-gaming-minecraft-background-music-377647.mp3::AudioStreamMP3::8430409806220684013::1762064080::1762528134::1::::<><><>0<>0<>3e0115694e16b25bb1499fd7f4976d62<>res://.godot/imported/game-gaming-minecraft-background-music-377647.mp3-9e1654792229d82c121357adc51e3b8c.mp3str::
+Gemini_Generated_Image_3ur8ls3ur8ls3ur8.png::CompressedTexture2D::2666294733706697014::1762415320::1762528134::1::::<><><>0<>0<>2752fb0461ba67cd12cc2d667ba4dc8c<>res://.godot/imported/Gemini_Generated_Image_3ur8ls3ur8ls3ur8.png-5f24b14dc80e8e2f42c694888a964cb2.ctex::
+hud.tscn::PackedScene::672971424432122985::1762407278::0::1::::<><><>0<>0<><>::uid://bi5370kgl6xcs::::res://scripts/hud.gd<>uid://bwt5tfdwi6444::::res://assets/input-prompts/keyboard_arrow_left.svg<>uid://d3um1i1lgu153::::res://assets/heart.png<>uid://bvblole4tllwp::::res://assets/input-prompts/keyboard_arrow_up.svg<>uid://ejrlpu5caxit::::res://assets/input-prompts/keyboard_arrow_right.svg<>uid://cw862nhkb5yck::::res://assets/input-prompts/steamdeck_dpad_left.svg<>uid://kthlw3efc7k1::::res://assets/input-prompts/steamdeck_dpad_right.svg<>uid://cunoxrlkbl8f1::::res://assets/input-prompts/steamdeck_button_a.svg
+ice_platform.gd::GDScript::6259596916528950924::1762271242::0::1::::Ice_Platform<>Node2D<><>0<>1<><>::
+icon.png::CompressedTexture2D::8017834321106716816::1761651749::1762528134::1::::<><><>0<>0<>4f5cdc0be6aae1ac8f8242ac39e60695<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
+icon.svg::CompressedTexture2D::4531018095821531173::1761651749::1762528134::1::::<><><>0<>0<>5c28fe1eadf165067a2643e63662f602<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+label.tscn::PackedScene::4277736782864507927::1762409868::0::1::::<><><>0<>0<><>::
+main.gd::GDScript::2399748601064665052::1762339260::0::1::::<>Node2D<><>0<>0<><>::
+main.tscn::PackedScene::7655658778991959712::1762415580::0::1::::<><><>0<>0<><>::uid://8st4scqt06l8::::res://components/player/player.tscn<>uid://jnrusvm3gric::::res://spaces/background.tscn<>uid://cswheshouik14::::res://rules_goals/game_logic.tscn<>uid://danlrmsfmsros::::res://spaces/tilemap.tscn<>uid://coq6d3u6wnvs2::::res://components/platform/platform.tscn<>uid://c0n81qu8b2twh::::res://spaces/tileset-d.tres<>uid://daf24t18h3n5e::::res://components/coin/coin.tscn<>uid://jt80gv02u4f2::::res://hud.tscn<>uid://d1al3ma7idpec::::res://components/platform/ice_platform.tscn<>uid://cvggv8s8lae2w::::res://ice_platform.gd<>uid://dk0xon0k7ga23::::res://components/enemy/enemy.tscn<>uid://beuisy5yrw0bq::::res://components/flag/flag.tscn<>uid://boqbxvbja884q::::res://scripts/multiplayer_camera.gd<>uid://6mkb8hau8ukn::::res://platform2.tscn<>uid://c0bwb1r2ecsoo::::res://game-gaming-minecraft-background-music-377647.mp3<>uid://dr3i1iolhbl3p::::res://main_menu_ui.tscn
+MainMenu.gd::GDScript::570710893993755954::1762339330::0::1::::<>Control<><>0<>0<><>::
+main_menu.tscn::PackedScene::7711592938522161492::1762341591::0::1::::<><><>0<>0<><>::uid://jfqe7wg7qlgr::::res://meu_ui.gd<>uid://6s7p0kkj1prl::::res://start.png<>uid://qs52ce05hlnr::::res://start pressed.png<>uid://be8ebg318lfni::::res://quit.png<>uid://cmrddcvkkmp1y::::res://quit pressed.png
+main_menu_ui.gd::GDScript::8230334249395324331::1762352505::0::1::::<>CanvasLayer<><>0<>0<><>::
+main_menu_ui.tscn::PackedScene::8410807578946446411::1762414215::0::1::::<><><>0<>0<><>::uid://dpi3nxouqk44n::::res://main_menu_ui.gd<>uid://d1siyguybpifg::::res://start1.png<>uid://cr2l2p5s7tem3::::res://parallax_layer_2.tscn<>uid://d0mm64yajbyyu::::res://start pressed1.png<>uid://bxrce7fph6ag2::::res://quit1.png<>uid://bgigpbuhhq4km::::res://quit pressed1.png<>uid://bk6vt3drx5t43::::res://parallax_layer.tscn
+meu_ui.gd::GDScript::643001811621392201::1762345967::0::1::::<>RefCounted<><>0<>0<><>::
+meu_ui.tscn::PackedScene::8238755957720439894::1762341615::0::1::::<><><>0<>0<><>::uid://jfqe7wg7qlgr::::res://meu_ui.gd<>uid://6s7p0kkj1prl::::res://start.png<>uid://qs52ce05hlnr::::res://start pressed.png<>uid://be8ebg318lfni::::res://quit.png<>uid://cmrddcvkkmp1y::::res://quit pressed.png
+parallax_background.gd::GDScript::8378306243364998850::1762322080::0::1::::<>ParallaxBackground<><>0<>1<><>::
+parallax_background.tscn::PackedScene::6498134476064793345::1762407509::0::1::::<><><>0<>0<><>::uid://dtpnvhyipek2m::::res://christmas-winter-sky-background-with-falling-snow.jpg
+parallax_layer.tscn::PackedScene::3153615293474124034::1762415412::0::1::::<><><>0<>0<><>::uid://lcyfyvhjr2i::::res://Gemini_Generated_Image_3ur8ls3ur8ls3ur8.png
+parallax_layer_2.tscn::PackedScene::6022506847003966748::1762414186::0::1::::<><><>0<>0<><>::uid://cnau52l41ceal::::res://Running penguin.png
+platform2.tscn::PackedScene::2201237385661523641::1762278678::0::1::::<><><>0<>0<><>::uid://dklmoawvb0fqr::::res://assets/tiles-d.png
+player_2.gd::GDScript::95382205307077266::1762156877::0::1::::Player2<>CharacterBody2D<><>0<>1<><>::
+quit1.png::CompressedTexture2D::6053926553498795277::1762344987::1762528134::1::::<><><>0<>0<>e5b0849bf645af79dd3302a933d2a94f<>res://.godot/imported/quit1.png-187034e80e4594f50dec0819d65ad2bf.ctex::
+quit pressed1.png::CompressedTexture2D::2610102389010988397::1762345004::1762528134::1::::<><><>0<>0<>0284e1104f0c3d335ac9e9153fc1f215<>res://.godot/imported/quit pressed1.png-f4824d96c9b684ff95353b1ce9e0d973.ctex::
+README.md::TextFile::-1::1761651749::0::1::::<><><>0<>0<><>::
+Running penguin.png::CompressedTexture2D::1178755794743732461::1762414042::1762528134::1::::<><><>0<>0<>932db1c89a9f0c30c7dcc8da3b70dc62<>res://.godot/imported/Running penguin.png-b9b1cec83f47ee2da7823be13fb44ce0.ctex::
+screenshot_20251103145659.gd::GDScript::7461474864604750810::1762171748::0::1::::<>Sprite2D<><>0<>0<><>::
+start1.png::CompressedTexture2D::3550814555382793220::1762344803::1762528134::1::::<><><>0<>0<>d5520df97a0a4c85d018e5f531dfd458<>res://.godot/imported/start1.png-aef2bb242625a25fa626315fbbffc63c.ctex::
+start pressed1.png::CompressedTexture2D::5830305404494965602::1762344926::1762528134::1::::<><><>0<>0<>f7c375f50b1e75ce99d26a658b2e1333<>res://.godot/imported/start pressed1.png-d714f89f693cc2d2ca9099e3853b65f5.ctex::
+uid.tscn::PackedScene::8767690186101410831::1762339349::0::1::::<><><>0<>0<><>::uid://bl20irlo3lldq::::res://background0.gd<>uid://dtpnvhyipek2m::::res://christmas-winter-sky-background-with-falling-snow.jpg
+UI_Menu.tscn::PackedScene::9050077464644291174::1762341857::0::1::::<><><>0<>0<><>::uid://jfqe7wg7qlgr::::res://meu_ui.gd<>uid://6s7p0kkj1prl::::res://start.png<>uid://qs52ce05hlnr::::res://start pressed.png<>uid://be8ebg318lfni::::res://quit.png<>uid://cmrddcvkkmp1y::::res://quit pressed.png
+::res://assets/::1762527881
+flag.png::CompressedTexture2D::4105425563438307484::1761651749::1762528135::1::::<><><>0<>0<>f7247cca58a840ee812c038cc467004f<>res://.godot/imported/flag.png-29c6a06ab0a1d25cfcfa38ea2a7baffa.ctex::
+heart.png::CompressedTexture2D::9210660606645387015::1761651749::1762528135::1::::<><><>0<>0<>795626af273b8d70c7f3933597240add<>res://.godot/imported/heart.png-9a2fa56e49d8a002fed7c28ce07513e0.ctex::
+tiles-d.png::CompressedTexture2D::8398637943577847237::1761651749::1762528135::1::::<><><>0<>0<>115209b71d53cbee995974032229cec7<>res://.godot/imported/tiles-d.png-9a770e83208e171ddb5264112e8fa0e0.ctex::
+::res://assets/input-prompts/::1762067591
+keyboard_a.svg::CompressedTexture2D::6547456113458610491::1761651749::1762067591::1::::<><><>0<>0<>0b274aa3456f2b5de2e8eb190b830cf7<>res://.godot/imported/keyboard_a.svg-ed26b8a8bd86aba66c5f697af8b6e2c5.ctex::
+keyboard_arrow_down.svg::CompressedTexture2D::4826409701388651991::1761651749::1762067591::1::::<><><>0<>0<>f41d327ee615deb8d8a39a9ec98645c4<>res://.godot/imported/keyboard_arrow_down.svg-18f0da674bcfed6ee0c2ffe6a8ef1ab1.ctex::
+keyboard_arrow_left.svg::CompressedTexture2D::3971654129186823139::1761651749::1762067591::1::::<><><>0<>0<>738f46e5f5195e07332abb8ae9c85c76<>res://.godot/imported/keyboard_arrow_left.svg-3e3bf82bab52783fc9467a38798d179c.ctex::
+keyboard_arrow_right.svg::CompressedTexture2D::300387427060754015::1761651749::1762067591::1::::<><><>0<>0<>415870f5f83c3f6bc27a57f9f6188979<>res://.godot/imported/keyboard_arrow_right.svg-d78277bf14dbbaee96630dc8c8569d50.ctex::
+keyboard_arrow_up.svg::CompressedTexture2D::3863144251160473295::1761651749::1762067591::1::::<><><>0<>0<>1a0265f71c365844c90687a87a0d20ca<>res://.godot/imported/keyboard_arrow_up.svg-563cab88f949a7c82cce1b16e72577b3.ctex::
+keyboard_d.svg::CompressedTexture2D::7828744968394593284::1761651749::1762067591::1::::<><><>0<>0<>6dc1e792b9646dbb50780f556d176702<>res://.godot/imported/keyboard_d.svg-c7535420b56dd7b8f9f2f192d2f824cf.ctex::
+keyboard_s.svg::CompressedTexture2D::6016364881565844176::1761651749::1762067591::1::::<><><>0<>0<>0af3e3de9137e6a5f1a9c6f0cfd04531<>res://.godot/imported/keyboard_s.svg-98912e340bd6dffd68fb5e94784b1038.ctex::
+keyboard_w.svg::CompressedTexture2D::3587171468478629865::1761651749::1762067591::1::::<><><>0<>0<>d61e98a1282e0e238208463b763169dd<>res://.godot/imported/keyboard_w.svg-3ca18719d0f621248861c20aab4cc8d2.ctex::
+steamdeck_button_a.svg::CompressedTexture2D::6204347172454132272::1761651749::1762067591::1::::<><><>0<>0<>bfb4acf715c113f30569e2ea38ae26a3<>res://.godot/imported/steamdeck_button_a.svg-c65385c304922812ecb720ee10dbf5d5.ctex::
+steamdeck_dpad_left.svg::CompressedTexture2D::6387051530592160046::1761651749::1762067591::1::::<><><>0<>0<>0d8f01f6b7775432aa7599d02701c61e<>res://.godot/imported/steamdeck_dpad_left.svg-e91d9695814991be8c05a9b7ff4a9c34.ctex::
+steamdeck_dpad_right.svg::CompressedTexture2D::741557475346544846::1761651749::1762067591::1::::<><><>0<>0<>67e3cd48704b88be70c0bfafd1c22426<>res://.godot/imported/steamdeck_dpad_right.svg-f87ef46d3bb29a7dddf3be25a7b4a2c7.ctex::
+::res://components/::1761651749
+::res://components/coin/::1762346966
+coin.tscn::PackedScene::7171276126295946020::1762346966::0::1::::<><><>0<>0<><>::uid://b4j8f10agdcvu::::res://scripts/coin.gd<>uid://dn74q8cqyyyew::::res://fish1.png
+::res://components/enemy/::1762354058
+enemy.gd::GDScript::8967326929876982765::1762352122::0::1::::Enemy<>CharacterBody2D<><>0<>0<><>::
+enemy.tscn::PackedScene::7914182145180434658::1762354058::0::1::::<><><>0<>0<><>::uid://d003tgo4vrak8::::res://components/enemy/enemy.gd<>uid://qxxv53lvh1ub::::res://bear1.png<>uid://buah2631c0p5u::::res://bear2.png<>uid://br0kgdyb0b66d::::res://bear3.png
+::res://components/flag/::1762407218
+flag-spriteframes-green.tres::SpriteFrames::4381658231520224555::1762407218::0::1::::<><><>0<>0<><>::uid://bwqhhtm1mdivu::::res://assets/flag.png
+flag-spriteframes-red.tres::SpriteFrames::3899484035301832657::1761651749::0::1::::<><><>0<>0<><>::uid://bwqhhtm1mdivu::::res://assets/flag.png
+flag.tscn::PackedScene::2708982801577443414::1762201110::0::1::::<><><>0<>0<><>::uid://ctlotfccvl4jn::::res://scripts/flag.gd<>uid://b3orjhfv6eeud::::res://components/flag/flag-spriteframes-green.tres
+::res://components/platform/::1762283149
+ice_platform.tscn::PackedScene::8984890506562874718::1762273794::0::1::::<><><>0<>0<><>::uid://qai7vly4v1n8::::res://New folder/Screenshot 2025-11-03 145659.png
+platform.gd::GDScript::7743960058952710297::1762100102::0::1::::Platform<>Node2D<><>0<>1<><>::
+platform.tscn::PackedScene::5790404309529412731::1762283149::0::1::::<><><>0<>0<><>::uid://dilh5jyuklov6::::res://components/platform/platform.gd
+::res://components/player/::1762269323
+player.tscn::PackedScene::2354596999777236875::1762269323::0::1::::<><><>0<>0<><>::uid://umb21eb2y1oj::::res://scripts/player.gd<>uid://ktiid0gtsf6g::::res://New folder/zeke-walk-cycle-1-7--1.png<>uid://dbd7iijjqbilc::::res://New folder/zeke-walk-cycle.png<>uid://k1gpubxme7sm::::res://New folder/zeke-walk-cycle-1-7--2.png
+spriteframes-blue.tres::SpriteFrames::5226898923985078683::1761651749::0::1::::<><><>0<>0<><>::uid://cexnpk7ee1jid::::res://assets/player-blue.png
+spriteframes-green.tres::SpriteFrames::5893264720376353424::1761651749::0::1::::<><><>0<>0<><>::uid://crog80k7dtp57::::res://assets/player-green.png
+spriteframes-grey.tres::SpriteFrames::3016624969776441509::1761651749::0::1::::<><><>0<>0<><>::uid://cgnl57h2uj2pd::::res://assets/player-grey.png
+spriteframes-red.tres::SpriteFrames::3433046484254455167::1762161910::0::1::::<><><>0<>0<><>::uid://de3owpoc205t0::::res://assets/player-red.png<>uid://ktiid0gtsf6g::::res://New folder/zeke-walk-cycle-1-7--1.png<>uid://k1gpubxme7sm::::res://New folder/zeke-walk-cycle-1-7--2.png<>uid://cpve14efdko0r::::res://New folder/zeke-walk-cycle-1-7--3.png<>uid://dwdvcdtd5fn1g::::res://New folder/zeke-walk-cycle-1-7--4.png
+::res://doc/::1761651749
+MODS.md::TextFile::-1::1761651749::0::1::::<><><>0<>0<><>::
+::res://New folder/::1762527935
+Screenshot 2025-11-03 145659.png::CompressedTexture2D::968600406633067275::1762171043::1762528135::1::::<><><>0<>0<>458ec2062173f3d5e7a0bbb219a6dac6<>res://.godot/imported/Screenshot 2025-11-03 145659.png-f10728bc02809bb4512cb400b805b232.ctex::
+zeke-walk-cycle-1-7--1.png::CompressedTexture2D::377950008349365280::1762156214::1762528135::1::::<><><>0<>0<>61104ada826f66ce568d47157be186f2<>res://.godot/imported/zeke-walk-cycle-1-7--1.png-9c3edaf1de83461a72ac919a44ae5b90.ctex::
+zeke-walk-cycle-1-7--2.png::CompressedTexture2D::4018643167717244761::1762156227::1762528135::1::::<><><>0<>0<>f6ce9fed701421214753dd02fa3fb5fb<>res://.godot/imported/zeke-walk-cycle-1-7--2.png-6058fa8cb1cf65f6aff772f2e0a59411.ctex::
+zeke-walk-cycle-1-7--3.png::CompressedTexture2D::5694762650169854096::1762156243::1762528134::1::::<><><>0<>0<>18dbb4400eaf31ac139b60fde57b1618<>res://.godot/imported/zeke-walk-cycle-1-7--3.png-d13ca96f535da5d39b4a327a155d097b.ctex::
+zeke-walk-cycle-1-7--4.png::CompressedTexture2D::3553313622533188294::1762156254::1762528134::1::::<><><>0<>0<>e37f29c70467edcfe060bc1b41c80315<>res://.godot/imported/zeke-walk-cycle-1-7--4.png-2a2025a9116e9c08dbee85c8d0c31e21.ctex::
+::res://rules_goals/::1761651749
+game_logic.tscn::PackedScene::6082089982482167993::1761651749::0::1::::<><><>0<>0<><>::uid://c4ap5hlwp57r0::::res://scripts/rules_goals/game_logic.gd
+::res://scripts/::1762363393
+background.gd::GDScript::7723161446391770603::1762281493::0::1::::<>ParallaxBackground<><>0<>1<><>::
+coin.gd::GDScript::4442490542948749086::1762194224::0::1::::Coin<>Area2D<><>0<>1<><>::
+dangerzone.gd::GDScript::263739797356536078::1762193947::0::1::::<>Area2D<><>0<>1<><>::
+flag.gd::GDScript::6130021785612158107::1762111673::0::1::::Flag<>Area2D<><>0<>1<><>::
+global.gd::GDScript::2563236551966008809::1762353593::0::1::::<>Node<><>0<>1<><>::
+hud.gd::GDScript::3011621315441926170::1762363393::0::1::::<>CanvasLayer<><>0<>1<><>::
+multiplayer_camera.gd::GDScript::3402197433888502358::1761651749::0::1::::MultiplayerCamera<>Camera2D<><>0<>0<><>::
+player.gd::GDScript::1428659711106375389::1762353367::0::1::::Player<>CharacterBody2D<><>0<>1<><>::
+scripts.gd::GDScript::5565478195589432117::1762190738::0::1::::<>CharacterBody2D<><>0<>1<><>::
+::res://scripts/rules_goals/::1762200990
+game_logic.gd::GDScript::6809282547274925755::1762200990::0::1::::GameLogic<>Node<><>0<>1<><>::
+::res://spaces/::1762415638
+background.tscn::PackedScene::659605386744289926::1762415638::0::1::::<><><>0<>0<><>::uid://dibflt2cj22ep::::res://scripts/background.gd<>uid://lcyfyvhjr2i::::res://Gemini_Generated_Image_3ur8ls3ur8ls3ur8.png
+dangerzone.tscn::PackedScene::8508781257060646418::1761651749::0::1::::<><><>0<>0<><>::uid://d000x4b6xlry::::res://scripts/dangerzone.gd
+tilemap.tscn::PackedScene::7186797865629516578::1761651749::0::1::::<><><>0<>0<><>::uid://bmkax0b814rmy::::res://spaces/tileset-a.tres
+tileset-a.tres::TileSet::3249372974313731676::1762407218::0::1::::<><><>0<>0<><>::uid://cnsfc4sy12ia::::res://assets/tiles-a.png
+tileset-b.tres::TileSet::2759948714087696032::1761651749::0::1::::<><><>0<>0<><>::uid://yxs4t16gdjk2::::res://assets/tiles-b.png
+tileset-c.tres::TileSet::4176172925234088648::1761651749::0::1::::<><><>0<>0<><>::uid://b3o3mc7govlr8::::res://assets/tiles-c.png
+tileset-d.tres::TileSet::6556450333314089287::1762407218::0::1::::<><><>0<>0<><>::uid://dklmoawvb0fqr::::res://assets/tiles-d.png
