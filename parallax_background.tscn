@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cyt0lcg01kk7j"]
+
+[ext_resource type="Texture2D" uid="uid://dtpnvhyipek2m" path="res://christmas-winter-sky-background-with-falling-snow.jpg" id="1_ksuqd"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="ChristmasWinterSkyBackgroundWithFallingSnow" type="Sprite2D" parent="."]
+position = Vector2(960, 539.99994)
+scale = Vector2(0.32000002, 0.24)
+texture = ExtResource("1_ksuqd")

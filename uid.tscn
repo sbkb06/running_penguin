@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://dw6etukocl5r4"]
+
+[ext_resource type="Script" uid="uid://bl20irlo3lldq" path="res://background0.gd" id="1_77iqx"]
+[ext_resource type="Texture2D" uid="uid://dtpnvhyipek2m" path="res://christmas-winter-sky-background-with-falling-snow.jpg" id="1_au6kx"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Background" type="ParallaxBackground" parent="."]
+follow_viewport_enabled = true
+scroll_ignore_camera_zoom = true
+script = ExtResource("1_77iqx")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="Background"]
+
+[node name="ChristmasWinterSkyBackgroundWithFallingSnow" type="Sprite2D" parent="Background"]
+position = Vector2(959.99994, 539.99994)
+scale = Vector2(0.32000002, 0.24)
+texture = ExtResource("1_au6kx")

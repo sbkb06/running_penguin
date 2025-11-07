@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://jnrusvm3gric"]
+
+[ext_resource type="Script" uid="uid://dibflt2cj22ep" path="res://scripts/background.gd" id="1_1jh5j"]
+[ext_resource type="Texture2D" uid="uid://lcyfyvhjr2i" path="res://Gemini_Generated_Image_3ur8ls3ur8ls3ur8.png" id="2_4lfkx"]
+
+[node name="Background" type="ParallaxBackground"]
+follow_viewport_enabled = true
+scroll_ignore_camera_zoom = true
+script = ExtResource("1_1jh5j")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+
+[node name="GeminiGeneratedImage3Ur8Ls3Ur8Ls3Ur8" type="Sprite2D" parent="."]
+position = Vector2(2688.0002, -488.00006)
+scale = Vector2(5.4999995, 4.2812505)
+texture = ExtResource("2_4lfkx")
